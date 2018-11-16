@@ -60,7 +60,7 @@ def Correlation_plot(df):
     np.seterr(divide='ignore', invalid='ignore')
     g = sns.pairplot(df,
                     diag_kind = 'kde',
-                    hue = 'Altitude',
+                    hue = 'click',
                     markers = ["o", "D"],
                     size = 1.5,
                     aspect = 1,
